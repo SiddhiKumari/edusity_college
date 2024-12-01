@@ -2,6 +2,7 @@ import { useRef } from 'react'
 import './VideoPlayer.css'
 import video from '../../assets/college-video.mp4'
 
+// eslint-disable-next-line react/prop-types
 const VideoPlayer = ({playState, setPlayState}) => {
 
     const player = useRef(null);
